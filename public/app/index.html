@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="icon" type="image/svg+xml" href="../../src/icon/a.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/style/style_1.css">
+    <link rel="stylesheet" href="./asset/style/anim.css">
+</head>
+
+<body>
+    <!-- ini navbar -->
+    <nav class="navbar navbar-expand-lg navbar-transparent fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html" style="font-weight: 900;">AdiyDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                            More Links
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light me-2">Help</button>
+                    <button class="btn btn-light">Chat</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+        <div class="header-content">
+            <h1 class="main-title">Adiy Is
+                <span class="type-animation">
+                    <span class="text-wrapper">
+                        <span class="typing-text"></span>
+                        <span class="typing-text"></span>
+                        <span class="typing-text"></span>
+                    </span>
+                </span>
+            </h1>
+        </div>
+    </div>
+    <section class="Profile">
+        <div class="row offset-2 ft" style="gap: 10px;">
+            <div class="col-5">
+                <h1 id="h1" class="Title">
+                    Discover Your <br>
+                    Minimalis Portfolio <br>
+                    Websaite Today
+                </h1>
+                <p class="mt-4 text-start">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit impedit recusandae ut nihil animi
+                    dolor officiis reprehenderit temporibus amet maxime!
+                </p>
+                <button class="btn btn-light">Leam More</button>
+            </div>
+            <div class="col-5">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-web card-img-top"src="../../src/img/wp1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Profile">
+        <div class="row offset-2 ft">
+            <div class="col-5">
+                <h1 id="h1" class="Title">
+                    Discover Your <br>
+                    Minimalis Portfolio <br>
+                    Websaite Today
+                </h1>
+            </div>
+            <div class="col-5">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium omnis aperiam
+                    deserunt adipisci ex porro laboriosam aliquam, exercitationem iusto.</p>
+            </div>
+        </div>
+    </section>
+    <section class="Profile">
+        <div class="row offset-2 ft">
+            <div class="col-5">
+                <h1 id="h1" class="Title">
+                    Discover Your <br>
+                    Minimalis Portfolio <br>
+                    Websaite Today
+                </h1>
+            </div>
+            <div class="col-5">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laudantium omnis aperiam
+                    deserunt adipisci ex porro laboriosam aliquam, exercitationem iusto.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- script js -->
+    <script src="./node_modules/bootstrap/dist/js//bootstrap.bundle.min.js"></script>
+    <script src="asset/js/anim.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+
+portofolio/
+├── node_modules/       # Dependensi (otomatis terbuat)
+├── src/
+│   ├── index.html      # File HTML utama
+│   └── assets/
+│       ├── css/        # Untuk CSS custom
+│       └── js/         # Untuk JS custom
+└── package.json
+
+-->

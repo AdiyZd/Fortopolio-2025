@@ -1,0 +1,60 @@
+link[rel="icon"] {
+    filter: brightness(0) invert(1);
+}
+
+html, body {
+    height: 100% !important;
+}
+
+.navbar-transparent {
+    background: transparent !important;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+}
+
+/* Hover effect untuk nav-link */
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: white !important;
+}
+
+/* Style untuk dropdown */
+.dropdown-menu {
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-outline-light {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-light {
+    background: white;
+    color: #201C22;
+    border: none;
+}
+
+/* Untuk toggle button di mobile */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Tambahkan di file CSS Anda */
+.navbar-colored {
+    background-color: #201C22 !important;
+   transition: background-color 0.4s ease;
+}
+
